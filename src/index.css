@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: calc(56px + (81 - 56) * ((100vw - 300px) / (1600 - 300)));
+}
+h2 {
+  font-size: calc(32px + (56 - 32) * ((100vw - 300px) / (1600 - 300)));
+}
+p {
+  font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+}
+
+label {
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+}

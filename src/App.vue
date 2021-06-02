@@ -1,26 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Weather />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Weather from "./components/Weather.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Weather
+  },
+};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Bree Serif", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+  /* background-image: url("https://picsum.photos/1700/800?random=1");
+  filter: brightness(80%); */
 }
+
 </style>
